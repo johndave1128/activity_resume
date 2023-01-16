@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Dave Aquino - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body> 
+<div class="header-card">
+  <div class="main-container">
+    <div class="header"> 
+        <div class="cover-photo"></div> 
+        <img class="avatar" src="images/profile.jpg" />
+        <h1 id="fullname"></h1>
+        <h4 id="location" style="margin-top:-14px;"></h4>
+        
+        <div id="positions"></div>
+      
+        <br>
+    </div>
+</div>
+</div>
+    <div class="main-container">
+    <!--INFO-->
+    <div class="info-card">
+    <h2>Info</h2>
+        <table style="width:100%;text-align: left;">
+            <tbody>
+                <tr><td>09519512288</td></tr>
+                <tr><td>johndaveaquino35@gmail.com</td></tr>
+                <tr><td>922 Purok 7 St.Bari, Mangaldan, Pangasinan</td></tr>
+            </tbody>
+        </table>
+    </div> 
+    <div class="profile-card">
+        <h2 class="profile-txt">Profile</h2>
+            <table style="width:100%;text-align: left;">
+                <tbody id="profileInfo"></tbody>
+            </table>
+        </div> 
+    <!--EDUCATION-->
+    <div class="card">
+        <h2>Education</h2> 
+        <table style="width:100%;text-align: left;">
+            <thead>
+                <th></th>  
+                <th>Course</th>
+                <th>School</th> 
+                <th>Year Graduated</th> 
+            </thead>
+            <tbody id="educationRows"></tbody>
+        </table>
+    </div> 
+     <!--start work exp--> 
+        <div class="card">
+            <h2>Work Experiences</h2> 
+            <table style="width:100%;text-align: left;">
+                <thead>  
+                    <th></th>
+                    <th>Company</th>
+                    <th>Position</th> 
+                    <th>Work Duration</th> 
+                </thead>
+                <tbody>
+                  <tr> 
+                    <td>
+                        <img style="width:220px;"
+                        src="images/landbank.png" class="school-banner" /> 
+                    </td>   
+                    <td>Landbank Mangaldan</td>  
+                    <td>Client Assistant</td>  
+                    <td>November 2017 - January 2018</td>  
+                   </tr>  
+                
+                </tbody>
+            </table>
+        </div> 
+     
+    <!--close work exp-->
+
+  <!--start skills-->
+  <div class="card">
+    <h2>Skills</h2> 
+    <br> 
+    <ul id="myskills"></ul>
+
+
+    <h4>Legends</h4>
+    <div id="legends-item" style="display:flex;margin-left: 20px;"></div>
+   
+</div> 
+<!--close skills-->
+  
+
+
+  </div>  
+  
+    <script src="index.js"></script>
+</body>
+</html>
